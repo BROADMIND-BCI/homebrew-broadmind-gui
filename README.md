@@ -4,6 +4,7 @@ Homebrew tap for the [BROADMIND GUI](https://broadmind.me/gui) desktop applicati
 
 ```bash
 brew tap broadmind-bci/broadmind-gui
+brew trust --tap broadmind-bci/broadmind-gui   # required: Homebrew 7 will not load an untrusted tap
 brew install --cask broadmind-gui
 ```
 
